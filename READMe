@@ -1,0 +1,61 @@
+  SCMS Delivery History Dataset - Exploratory Data Analysis
+
+This project presents an Exploratory Data Analysis (EDA) of the SCMS (Supply Chain Management System) Delivery History Dataset. The goal is to uncover insights into delivery performance, shipment delays, vendor efficiency, and logistics cost to support better decision-making in supply chain operations.
+
+## Dataset Overview
+
+- Source: SCMS Delivery History Dataset
+- Records: Thousands of shipment line items
+- Columns: Includes order details, shipment modes, vendor information, costs, and delivery dates
+- Format: CSV
+
+
+##  Business Objective
+
+To identify key factors affecting shipment delays, delivery timelines, and insurance costs in order to optimize logistics decisions, improve vendor performance, and enhance overall supply chain efficiency.
+
+
+##  Key Steps in Analysis
+
+1. Data Loading & Inspection
+   - Checked rows, columns, and data types
+   - Identified duplicate and missing values
+
+2. Data Cleaning
+   - Removed duplicates
+   - Handled null values appropriately
+
+3. Exploratory Data Analysis
+   - Analyzed vendor performance
+   - Evaluated shipment modes
+   - Identified countries with frequent delays
+   - Compared freight and insurance costs
+
+4. Visualizations
+   - Heatmaps for missing values
+   - Bar plots and pie charts for categorical distributions
+   - Line and scatter plots for delivery timelines and cost analysis
+
+
+##  Key Insights
+
+- Air shipments are generally more reliable for on-time delivery
+- Some vendors consistently contribute to late deliveries
+- Insurance costs and freight charges vary by country and shipment mode
+- Specific countries showed patterns of recurring delays
+
+
+##  Recommendations
+
+- Use air mode for time-sensitive shipments
+- Evaluate and renegotiate contracts with underperforming vendors
+- Use data dashboards for real-time tracking
+- Predict delays based on past trends
+
+
+##  Tools Used
+
+- Python (Pandas, NumPy, Seaborn, Matplotlib)
+- Jupyter Notebook
+- Missingno
+- Power BI (for dashboarding - optional)
